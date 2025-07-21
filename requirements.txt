@@ -1,0 +1,58 @@
+# AI Agent Scaffold SDK - Core Requirements
+
+# Core dependencies
+pydantic>=2.0.0
+httpx>=0.24.0
+rich>=13.0.0
+pyyaml>=6.0
+typing-extensions>=4.0.0
+
+# Optional LLM Provider Dependencies
+# Uncomment the ones you need:
+
+# ZhipuAI
+# zhipuai>=1.0.0
+
+# Moonshot (OpenAI compatible)
+# openai>=1.0.0
+
+# Tongyi (Alibaba)
+# dashscope>=1.0.0
+
+# Volcano Engine (ByteDance)
+# volcengine>=1.0.0
+
+# Optional Agent Framework Dependencies
+# Uncomment the ones you need:
+
+# LangChain
+# langchain>=0.1.0
+# langchain-core>=0.1.0
+# langchain-community>=0.0.10
+
+# LangGraph
+# langgraph>=0.0.30
+
+# CrewAI
+# crewai>=0.1.0
+
+# LlamaIndex
+# llama-index>=0.9.0
+# llama-index-core>=0.9.0
+
+# AutoGen
+# pyautogen>=0.2.0
+
+# MetaGPT
+# metagpt>=0.6.0
+
+# Development Dependencies (for contributors)
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# pytest-cov>=4.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0
+# pre-commit>=3.0.0
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0
